@@ -1,0 +1,37 @@
+
+select* from actor limit 1;
+
+select* from certificate limit 1;
+
+select* from country limit 1;
+
+select* from director limit 1;
+
+select* from film limit 1;
+
+select* from filmcast limit 1;
+
+select* from genre limit 1;
+
+select* from language limit 1;
+
+select* from studio limit 1;
+
+
+question B:
+mysql> select c.certificate, f.filmname
+    -> from certificate c
+    -> inner join film f
+    -> on c.certificateid = f.filmcertificateid
+    -> inner join actor a
+    -> on f.filmcountryid = a.actorcountryid
+    -> where a.actorname = 'Temuera Morrison'
+    -> order by f.filmname;
++-------------+-----------------------------------------------+
+| certificate | filmname                                      |
++-------------+-----------------------------------------------+
+| 18          | Once Were Warriors                            |
+| PG          | The Lord of the Rings: Fellowship of the Ring |
+| 12A         | The Lord of the Rings: Return of the King     |
+| 12A         | The Lord of the Rings: The Two Towers         |
++-------------+-----------------------------------------------+

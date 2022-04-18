@@ -1,0 +1,9 @@
+select a.actorname, count(f.filmname) as 'count(*)' 
+from film f 
+inner join filmcast fc 
+on f.filmid = fc.castfilmid 
+inner join
+actor a on fc.castactorid = a.actorid 
+group by a.actorname 
+order by count(f.filmname), 
+a.actorname;

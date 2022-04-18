@@ -1,0 +1,1 @@
+db.employees.aggregate([{$match:{"expertise":{$exists:1}}}, {$project:{"Area of expertise":{$size:"$expertise"}}}, {"$sort":{"Area of expertise":1, _id:1}}])

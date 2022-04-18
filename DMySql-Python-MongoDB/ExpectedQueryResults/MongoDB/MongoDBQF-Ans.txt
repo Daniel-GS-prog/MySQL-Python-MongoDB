@@ -1,0 +1,7 @@
+{ "_id" : "E06", "Areas of Expertise" : 1 }
+{ "_id" : "E02", "Areas of Expertise" : 2 }
+{ "_id" : "E07", "Areas of Expertise" : 2 }
+{ "_id" : "E08", "Areas of Expertise" : 2 }
+{ "_id" : "E01", "Areas of Expertise" : 3 }
+{ "_id" : "E05", "Areas of Expertise" : 3 }
+bye

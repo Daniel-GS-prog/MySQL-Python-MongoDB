@@ -1,0 +1,6 @@
+select l.language, avg(f.filmruntimeminutes) as 'avg(FilmRunTimeMinutes)' 
+from language l 
+inner join film f 
+on l.languageid = f.filmlanguageid 
+group by l.language 
+order by avg(f.filmruntimeminutes) asc, l.language;

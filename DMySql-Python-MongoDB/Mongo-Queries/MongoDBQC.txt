@@ -1,0 +1,1 @@
+db.employees.aggregate([{$project: {_id:1, "Salary Bracket":{"$cond":{if:{$lt:["$salary", 40000]}, then:"Low", else:{"$cond":{if:{$lt:["$salary", 48000]}, then:"Medium", else:"High"}}}}}},{"$sort":{_id:1}}])

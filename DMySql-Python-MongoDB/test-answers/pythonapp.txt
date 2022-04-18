@@ -1,0 +1,59 @@
+question 1:
+The user is shown the list of Film Names (in alphabetical order) and the Names of the actors (in
+alphabetical order) who starred in the film in groups of 5:
+
+select f.filmname, a.actorname from film f inner join actor a on f.filmcountryid = a.actorcountryid inner join filmcast fc on a.actorid = fc.castactorid order by f.filmname, a.actorname;
+
+# Limit to 5 results in each iteration
+
+-----------------------------------------
+
+
+question 2:
+When a year is entered, the user is then asked to enter a Gender:
+
+select actorname, date_format(actordob,"%M" ), actorgender from actor;
+
+#If no gneder specified, all actors with the given dob are returned
+
+
+-----------------------------------------
+
+
+
+question 3:
+The user is shown the id and name of all studios, in ascending studio id order.
+
+select * from studio order by studioid;
+
+
+-----------------------------------------
+
+question 4:
+Add new country
+enter ID 
+Enter name
+
+If the ID and/or Country Name entered already exist in the database, the user should be
+informed of this
+
+insert into country (countryid, countryname) values(x, "");
+
+-----------------------------------------
+
+question 5:
+• 5 (View Movies with Subtitles)
+
+db.movieScripts.aggregate([{$match:{subtitles:{"$regex":"^Spanish*"}}}, {$project:{_id:1}}, {$sort:{_id:1}}])
+
+select filmname, filmsynopsis from film  where filmid = 1;
+
+
+-----------------------------------------
+
+
+question 6:
+
+if ID not in mysql, error, else:
+
+db.movieScripts.insert({_id:3, Keywords:[""], subtiles:[""]})

@@ -1,0 +1,10 @@
+{ "_id" : "E01", "Salary Bracket" : "Medium" }
+{ "_id" : "E02", "Salary Bracket" : "High" }
+{ "_id" : "E03", "Salary Bracket" : "Low" }
+{ "_id" : "E04", "Salary Bracket" : "Low" }
+{ "_id" : "E05", "Salary Bracket" : "High" }
+{ "_id" : "E06", "Salary Bracket" : "High" }
+{ "_id" : "E07", "Salary Bracket" : "Medium" }
+{ "_id" : "E08", "Salary Bracket" : "Medium" }
+{ "_id" : "E09", "Salary Bracket" : "Medium" }
+bye
