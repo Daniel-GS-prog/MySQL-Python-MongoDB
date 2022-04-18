@@ -14,8 +14,8 @@ python  application to interacts with both MySql and MongoDB databases.
 ## Project Description
 
 The purpuse of this project is to build a python 
-application to intereact with both MySql and MongoDB dabatases, as a final 
-project for the module "Applied Databases" within the Higher Diploma in Data Analytics in GMIT.
+application to intereact with both MySql and MongoDB dabatases. 
+You won't be able to see it functioning as for that you will need the databases, but you can see the functionalities and logic.
 <br>
 
 ## Technologies
