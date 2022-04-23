@@ -1,4 +1,0 @@
-certificate	filmname
-18	Once Were Warriors
-PG	Star Wars: Episode II - Attack of the Clones
-12A	Star Wars: Episode III - Revenge of the Sith

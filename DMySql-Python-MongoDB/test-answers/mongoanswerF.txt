@@ -1,7 +1,0 @@
-{ "_id" : "E06", "Area of expertise" : 1 }
-{ "_id" : "E02", "Area of expertise" : 2 }
-{ "_id" : "E07", "Area of expertise" : 2 }
-{ "_id" : "E08", "Area of expertise" : 2 }
-{ "_id" : "E01", "Area of expertise" : 3 }
-{ "_id" : "E05", "Area of expertise" : 3 }
-bye

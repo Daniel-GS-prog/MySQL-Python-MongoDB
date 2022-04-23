@@ -1,7 +1,0 @@
-language	avg(FilmRunTimeMinutes)
-Cantonese	104.0000
-Mandarin	112.6667
-French	122.0000
-English	128.9831
-German	152.5000
-Japanese	167.5000
