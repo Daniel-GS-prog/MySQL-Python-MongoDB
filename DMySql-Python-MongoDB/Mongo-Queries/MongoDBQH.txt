@@ -1,1 +1,0 @@
-db.employees.aggregate([{$match:{"pensionLevel":{$exists:1}}}, {$project:{_id:0, "Min Pension Level":"$pensionLevel"}}, {$sort:{"Min Pension Level":1}}, {$limit:1}])
